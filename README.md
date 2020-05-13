@@ -13,9 +13,9 @@ chmod 700 *.sh
 ./xlsx2csv.sh resources/Rockstarserverlist.xlsx ip.csv
 ```
 
-**
+**Run Phase One**
 ```
-
+./phase-1.sh
 
 ```
 
