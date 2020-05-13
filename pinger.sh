@@ -13,12 +13,7 @@ SERVERS=($HOLLYWOOD_APP_1 $HOLLYWOOD_APP_2 $HOLLYWOOD_DB $HOLLYWOOD_WEB_1 $HOLLY
 ALIVE="alive-server.md"
 REPORT="network-assesment.md"
 
-<<E
 
-    0000-0000                   .           0000-0000       .        0000-0000         .          0000-0000  /0 ==== 32
-    1 2 4 8 16 32 64 128 256     1 2 4 8 16 32 64 128 256     1 2 4 8 16 32 64 128 256 
-
-E
 
 # Install fping
 #sudo apt install fping || brew install fping 
@@ -52,3 +47,5 @@ echo ------------
 echo 
 
 cat $ALIVE
+
+rm $REPORT $ALIVE
